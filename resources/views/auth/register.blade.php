@@ -107,13 +107,11 @@
                             </div>
                         </div>
 
-                        <div class="mb-3">
-                            <label for="address" class="form-label fw-semibold">Alamat Pengiriman</label>
-                            <textarea class="form-control @error('address') is-invalid @enderror" id="address" name="address" rows="2" placeholder="Alamat lengkap jalan, RT/RW, kota, provinsi">{{ old('address') }}</textarea>
-                            @error('address')
-                                <div class="text-danger small mt-1">{{ $message }}</div>
-                            @enderror
-                        </div>
+                        <!-- ========================================================================= -->
+                        <!-- # CATATAN ALAMAT PENGIRIMAN: -->
+                        <!-- Input alamat di form registrasi telah dihapus sesuai instruksi. -->
+                        <!-- User dapat menambahkan atau melengkapi alamat nanti di Profil Saya. -->
+                        <!-- ========================================================================= -->
 
                         <button type="submit" class="btn btn-primary w-100 py-2 fw-semibold">
                             <i class="bi bi-check-circle me-1"></i> Buat Akun

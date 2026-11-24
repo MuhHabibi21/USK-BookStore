@@ -109,7 +109,6 @@ class AuthController extends Controller
                 'confirmed',
             ],
             'phone' => ['nullable', 'regex:/^(\+?[0-9]{10,15})$/'],
-            'address' => 'nullable|string',
         ], [
             'name.required' => 'Nama lengkap / Username wajib diisi.',
             'name.min' => 'Nama / Username minimal 3 karakter.',
